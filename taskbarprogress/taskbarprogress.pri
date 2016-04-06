@@ -21,5 +21,6 @@ SOURCES += \
     taskbarprogress/qtaskbarlist3.cpp
 
 LIBS += \
-    -L"C:/windows/system32" -lole32
+#    -L"C:/windows/system32" \
+    -lole32
 }
